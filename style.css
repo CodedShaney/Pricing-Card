@@ -106,7 +106,7 @@ body {
 
 .bottom-right {
   box-sizing: border-box;
-  width: 300px;
+  min-width: 100%;
   height: 100%;
   background-color: rgb(68, 165, 165);
   padding-left: 30px;
@@ -121,3 +121,44 @@ body {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.726);
 }
+
+@media (min-width: 340px) and (max-width: 640px) {
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 20px;
+  }
+
+  .container {
+    width: 330px;
+    height: 820px;
+    margin-bottom: 500px;
+  }
+
+  .top-container {
+    height: 300px;
+    padding-right: 12px;
+  }
+
+  .bottom-container {
+    display: block;
+    height: 260px;
+    width: 330px;
+  }
+  .bottom-left {
+    width: 330px;
+  }
+
+  .why-us {
+    margin: 0px;
+  }
+
+  .bottom-right {
+    padding: 20px;
+  }
+  }
