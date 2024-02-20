@@ -99,6 +99,11 @@ body {
   box-shadow: 1px 1px 6px rgb(76, 102, 23);
 }
 
+.sign-up:hover {
+  font-weight: bold;
+  background-color: rgb(175, 233, 59);
+}
+
 .bottom-right {
   box-sizing: border-box;
   width: 300px;
